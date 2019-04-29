@@ -1,0 +1,74 @@
+#tt {
+margin-right: auto;
+background: burlywood;
+font-variant: small-caps;
+ border-radius: 1em;
+ border-style: dotted;
+ position: fixed;
+
+}
+
+img{
+  border-style: solid;
+  border-color: gray;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	height: 300px;
+}
+
+a{
+text-decoration:none;
+color: #F0E68C;
+}
+
+th{
+	font-family: Arial;
+	color: white;
+}
+
+h1{
+ color: white;
+ font-family: Georgia;
+ text-align: center;
+}
+
+h4{
+  color: black;
+ font-family: Georgia;
+ text-align: center;
+}
+
+header{
+  color: black;
+  text-align: center;
+  background: burlywood;
+  margin: 20px;
+  padding: 5px;
+}
+
+ footer {
+ color: black;
+  text-align: center;
+  background: burlywood;
+  margin: 0px;
+  padding: 5px;
+  bottom:0;
+  position: fixed;
+ }
+
+#um {
+background-color: wheat; 
+border:2px solid white; 
+margin: 20px 110px;
+padding: auto;
+text-align:center;
+color: black;
+ border-radius: 1em;
+}
+
+#galeria{
+  font-size: 11px;
+  text-align: justify;
+  margin: 10px;
+}

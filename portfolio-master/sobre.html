@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="port.css" />
+
+	<title>Lucas H. Portfolio</title> 
+
+	<h1>Fullstack Developer Portfolio</h1>
+
+		<header>
+			<i>I do my thing, i love myself.</i>
+	</header>
+
+	
+
+</head>
+
+<body bgcolor="black">
+
+<table>
+
+	<th>Menu</th>
+	
+	<tr>
+		<td><a href="sobre.html" > Sobre mim </a></td>
+	</tr>
+
+	<tr>
+		<td> <a href="artes.html"> Artes </a></td>
+	</tr>
+
+	<tr>
+		<td> <a href="Contato.html"> Contato </a></td>
+	</tr>
+
+</table>
+
+	<div id="um" align="left">
+	
+	<p>Olá, eu sou Lucas Herculano Rodrigues, estudante de 20 anos, nasci em Sorocaba, mas moro em Mairinque desde que nasci.</p>
+	<p>Tenho Inglês intermediário, Alemão iniciante e sou formado em um curso técnico de informática, atualmente cursando Analise e Desenvolvimento de Sistemas.</p>
+	<p>Meu foco profissional é aprender a se tornar um programador fullstack com as habilidades intermediárias pra melhor. Também tenho o objetivo de algum dia trabalhar(mesmo que seja por hobby) com hardware, sendo realizando montagens e testes ou até mesmo vendendo peças usadas.</p>
+	<p>Esse é meu humilde portfólio como um Aluno que ainda é iniciante em programação para web, mas ao longo da minha carreira ele irá se tornar algo bem profissional.</p>
+	<h4>Caso tenha interesse em algum trabalho comigo, por favor me contate!</h4>
+	<br>
+	
+        <P><h5>Nos slides abaixo há alguns exemplos de trabalhos feitos por mim.</h5></P>
+	
+
+<div class="slidecontainer">
+
+		<div class="mySlides fade">
+    	<div class="numbertext">1 / 5</div>
+    	<img src="slide1.jpg">
+    	<div class="text">Sites simples.</div>
+    	</div>
+
+    	<div class="mySlides fade">
+    	<div class="numbertext">2 / 5</div>
+    	<img src="slide2.jpg">
+    	<div class="text">Programação em C.</div>
+    	</div>
+
+    	<div class="mySlides fade">
+    	<div class="numbertext">3 / 5</div>
+    	<img src="slide3.jpg">
+    	<div class="text">Utilização de Javascript!</div>
+    	</div>
+
+      <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="slide4.jpg">
+      <div class="text">HTML + Design</div>
+      </div>
+
+      <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="slide5.jpg">
+      <div class="text">HTML + Design pt 2</div>
+      </div>
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  	 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  	</div>
+  
+  <br>
+
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+
+	</div>
+</div>
+
+
+  	</div> 
+  	
+  	<script>
+
+			var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+
+  	<footer>
+	© 2018 Lucas Herculano Rodrigues - All rights reserved
+	</footer>
+	
+
+	</body>
+	</html>
